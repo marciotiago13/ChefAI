@@ -48,7 +48,6 @@ public abstract class SugestorBase {
                 int tempo = obj.getInt("tempo");
                 String preparo = obj.getString("modoPreparo");
 
-                // Cria o objeto Receita (Aqui ele deixa de ser enfeite!)
                 Receita receita = new Receita(nome, tempo, preparo);
 
                 // Preenche a lista de ingredientes da receita
