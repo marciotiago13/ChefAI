@@ -46,7 +46,6 @@ public class Main {
         try {
             System.out.println("Consultando o Chef IA... (isso pode levar alguns segundos)");
             
-            // AQUI MUDOU: Agora capturamos a lista!
             List<Receita> sugestoes = sugestor.sugerirReceitas(dispensa);
 
             System.out.println(tipo);
@@ -55,7 +54,6 @@ public class Main {
                 System.out.println("O Chef não conseguiu gerar receitas estruturadas desta vez.");
             } else {
                 for (Receita r : sugestoes) {
-                    // Aqui o Java usa o toString() da classe Receita automaticamente
                     System.out.println(r); 
                     System.out.println("-----------------------------------");
                 }
