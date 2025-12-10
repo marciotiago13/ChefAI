@@ -1,2 +1,3 @@
-api.key=AIzaSyAwP1ek62zyAvjttOLh3pxMembk1cKCWTo
+api.key=
+
 api.url=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=
